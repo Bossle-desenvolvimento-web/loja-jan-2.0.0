@@ -1,0 +1,301 @@
+@charset "utf-8";
+
+@media(max-width: 576px){
+
+/*header*/
+header{background-color: #deb887;
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       margin-bottom: 15px;}
+
+.topo-logos{width: 100%;
+            display: flex;
+            flex-direction: row;
+             justify-content: space-between;}
+
+.btn-logar{background-color: #80A62E;
+           }
+
+.btn-logar:hover{cursor: pointer;
+                 background-color: #BF9663;}
+
+.carrinho-compras{display: flex;
+                  justify-content: flex-end;}
+
+/*footer*/
+footer {background-color: #4285f4;
+    padding: 10px;
+   
+  }
+
+  .gerais {display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+  }
+
+  .formas-pgto,
+  .contato,
+  .site-seguro {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+
+  .formas-pgto figure img,
+  .contato figure img,
+  .site-seguro figure img {
+    width: 20px;
+    height: 20px;
+  }
+
+  article {
+    text-align: left;
+  }
+   a{text-decoration: none;}
+
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+
+/*header*/
+  header{background-color: #deb887;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin-bottom: 15px;}
+
+.topo-logos{width: 100%;
+            display: flex;
+            flex-direction: row;
+             justify-content: space-between;}
+
+.btn-logar{background-color: #80A62E;
+           padding-top: 8px;
+           padding-bottom: 8px; }
+
+.btn-logar:hover{cursor: pointer;
+                 background-color: #BF9663;}
+
+#btn-entre{padding-left: 14px;
+           padding-right: 14px;}
+
+.carrinho-compras{display: flex;
+                  justify-content: flex-end;}
+
+
+.nome-loja{
+
+  >h1{text-align: center;}}
+
+/*footer*/
+
+ footer{background-color: darkkhaki;
+          padding: 25px;}
+
+   .gerais {display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+    
+  }
+
+  .formas-pgto,
+  .contato,
+  .site-seguro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+
+  .formas-pgto figure img,
+  .contato figure img,
+  .site-seguro figure img {
+    width: 20px;
+    
+  
+  }
+
+  article {
+    text-align: left;
+  }
+   a{text-decoration: none;}
+   
+    .gerais{background-color: chocolate;
+            height: 50px;
+            margin-bottom: 5px;}
+
+    .formas-pgto{background-color: red;
+                 margin-bottom: 5px;}
+
+    .contato{background-color: chartreuse;
+             margin-bottom: 5px;}
+ 
+    .site-seguro{background-color: coral;
+                 margin-bottom: 5px;}
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+/*header*/
+ header{background-color: #deb887;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin-bottom: 15px;}
+
+.topo-logos{width: 100%;
+            display: flex;
+            flex-direction: row;
+             justify-content: space-between;}
+
+.btn-logar{background-color: #80A62E;
+           padding-top: 8px;
+           padding-bottom: 8px; }
+
+.btn-logar:hover{cursor: pointer;
+                 background-color: #BF9663;}
+
+#btn-entre{padding-left: 14px;
+           padding-right: 14px;}
+
+.carrinho-compras{display: flex;
+                  justify-content: flex-end;}
+
+
+.nome-loja{
+
+  >h1{text-align: center;}}
+
+/*footer*/
+
+footer{background-color:#f20;
+          padding: 25px;}
+
+   .gerais {display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+    
+  }
+
+  .formas-pgto,
+  .contato,
+  .site-seguro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+
+  .formas-pgto figure img,
+  .contato figure img,
+  .site-seguro figure img {
+    width: 20px;
+    
+  
+  }
+
+  article {
+    text-align: left;
+  }
+   a{text-decoration: none;}
+   
+    .gerais{background-color: chocolate;
+            height: 50px;
+            margin-bottom: 5px;}
+
+    .formas-pgto{background-color: red;
+                 margin-bottom: 5px;}
+
+    .contato{background-color: chartreuse;
+             margin-bottom: 5px;}
+ 
+    .site-seguro{background-color: coral;
+                 margin-bottom: 5px;}
+    
+
+}
+
+@media (min-width: 1025px){
+
+/*header*/
+ header{background-color: #deb887;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin-bottom: 15px;}
+
+.topo-logos{width: 100%;
+            display: flex;
+            flex-direction: row;
+             justify-content: space-between;}
+
+.btn-logar{background-color: #80A62E;
+           padding-top: 8px;
+           padding-bottom: 8px; }
+
+.btn-logar:hover{cursor: pointer;
+                 background-color: #BF9663;}
+
+#btn-entre{padding-left: 14px;
+           padding-right: 14px;}
+
+.carrinho-compras{display: flex;
+                  justify-content: flex-end;}
+
+
+.nome-loja{
+
+  >h1{text-align: center;}}
+
+/*footer*/
+footer{background-color:#f20;
+          padding: 25px;}
+
+   .gerais {display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+    
+  }
+
+  .formas-pgto,
+  .contato,
+  .site-seguro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+
+  .formas-pgto figure img,
+  .contato figure img,
+  .site-seguro figure img {
+    width: 20px;
+    
+  
+  }
+
+  article {
+    text-align: left;
+  }
+   a{text-decoration: none;}
+   
+    .gerais{background-color: chocolate;
+            height: 50px;
+            margin-bottom: 5px;}
+
+    .formas-pgto{background-color: red;
+                 margin-bottom: 5px;}
+
+    .contato{background-color: chartreuse;
+             margin-bottom: 5px;}
+ 
+    .site-seguro{background-color: coral;
+                 margin-bottom: 5px;}
+
+
+}

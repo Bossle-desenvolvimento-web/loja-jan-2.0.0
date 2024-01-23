@@ -1,0 +1,238 @@
+@charset "utf-8";
+@media (max-width: 576px) {
+
+body,
+pag-velas.html,
+pag-sabonetes.html,
+pag-aromatizantes.html{background-color: red;}
+
+  .nossos-produtos{width: 90%;
+                   height: auto; 
+                  
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;}
+            
+   .produtos{display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;}
+  
+  
+
+
+  .produtos img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.h3-prod {
+  color: #4285f4;
+}
+
+.prod p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+}
+
+.comprar {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+
+body,
+pag-velas.html,
+pag-sabonetes.html,
+pag-aromatizantes.html{background-color: aqua;} 
+
+  .nossos-produtos{width: 90%;
+                   height: auto; 
+                  
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;}
+            
+   .produtos{display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;}
+  
+  
+
+
+  .produtos img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.h3-prod {
+  color: #4285f4;
+}
+
+.prod p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+}
+
+.comprar {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+body,
+pag-velas.html,
+pag-sabonetes.html,
+pag-aromatizantes.html{background-color:yellow;} 
+
+  .nossos-produtos{width: 90%;
+                   height: auto; 
+                  
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;}
+            
+   .produtos{display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;}
+  
+  
+
+
+  .produtos img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.h3-prod {
+  color: #4285f4;
+}
+
+.prod p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+}
+
+.comprar {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+}
+
+
+
+@media (min-width: 1025px){
+
+
+body,
+pag-velas.html,
+pag-sabonetes.html,
+pag-aromatizantes.html{background-color:green;} 
+
+  .nossos-produtos{width: 90%;
+                   height: auto; 
+                  
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;}
+            
+   .produtos{display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;}
+  
+  
+
+
+  .produtos img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.h3-prod {
+  color: #4285f4;
+}
+
+.prod p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+}
+
+.comprar {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+}
+
+
+     
+
+   
+ 
+
+
+
+
+
+
+       
