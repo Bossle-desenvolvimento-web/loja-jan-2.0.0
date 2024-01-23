@@ -1,5 +1,5 @@
 @charset "utf-8";
-@media (max-width: 576px){
+@media (max-width: 576px){body{background-color:#fff;}
 /*//Header e seus componentes//*/
 header{background-color: #deb887;
        display: flex;
@@ -12,16 +12,23 @@ header{background-color: #deb887;
             flex-direction: row;
              justify-content: space-between;}
 
-.btn-logar{background-color: #80A62E;
+.btn-logar{background-color: #10B000;
            }
 
 .btn-logar:hover{cursor: pointer;
-                 background-color: #BF9663;}
+                 background-color: #BF9663;
+                 border: solid 2px #000;
+                 color: #000;}
+
+
 
 .carrinho-compras{display: flex;
                   justify-content: flex-end;}
 
 /*/// CAROUSEL-PUBLICIDADE-/////////////*/
+
+main{margin-top: 15px;}
+
  *{box-sizing: border-box;}
 
  .slideshow-container{width: 90%;
@@ -35,13 +42,18 @@ header{background-color: #deb887;
        border-radius: 5px;}
 
 /*//////SESSAO-VENDAS/////////*/
+
+
+
+
 .carousel{width: 100%;
           overflow-x: auto;
           overflow-y: hidden;
 
 
     .carousel-items{display:flex;
-                   flex-direction: row;}}
+                   flex-direction: row;
+                   }}
 
 
 
@@ -54,28 +66,28 @@ header{background-color: #deb887;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
-            }
+              background-color: #BAC3CF;}
 
 
-.carouselitem  img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+.carouselitem  img { width: 100%;
+                    height: auto;
+                    border-radius: 8px;
+                   
+                  }
+
+  
+.h3-carousel-item {color: #0e131a;
+                     
 }
 
-
-.h3-carousel-item {
-  color: #0e131a;
-}
-
-.carousel-item p {
-  font-size: 14px;
-  line-height: 1.4;
-  color: #000;
+.carousel-item p {font-size: 14px;
+                line-height: 1.4;
+                color: #000;
+                
 }
 
 button {
-  background-color: #4285f4;
+  background-color: #10B000;
   color: #fff;
   padding: 10px 30px;
   border: none;
@@ -86,7 +98,8 @@ button {
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #deb887;
+   color: #000;
 
 }
 
@@ -94,28 +107,43 @@ button:hover {
  
            >div{padding: 20px;
                display: flex;
-               flex-direction: column;}
+               flex-direction: column;
+               }
  
-  .carousel{height: 480px;}
+  .carousel{height:auto;}
             
      .carousel-item{min-width: 320px;
                      max-width: 320px;
-
+                    
       
                 & img{width: 100%;}}}
 
+  .h3-prod{color: #000;
+            }
+
   /*/////FOOTER//////////////*/
   @media (max-width: 576px) {
-  footer {background-color: #4285f4;
+  footer {background-color: #777272;
     padding: 10px;
+    color: #fff;
+    a{color:#f3f3f3}
    
   }
+
+   a:hover{color:#f3f3f3;
+           transform: translateY(2px);}
 
   .gerais {display: flex;
     flex-direction: column;
    align-items: center;
-    
   }
+
+    .gerais{border-bottom: solid 3px #000;}
+    .formas-pgto{border-bottom: solid 3px #000;}
+    .contato{border-bottom: solid 3px #000;}
+     .site-seguro{border-bottom: solid 3px #000;}
+    
+  
 
   .formas-pgto,
   .contato,
@@ -138,12 +166,23 @@ button:hover {
     text-align: left;
   }
    a{text-decoration: none;}
+
+
+  #footer-autor{color: #BAC3CF;
+                background-color: #000;
+               }
+
+    #h4-footer, #p-footer{text-align: center;}
 }
 }
+
+/****************************************************************************/
 
 @media (min-width: 577px) and (max-width: 768px){
 
   /*//Header e seus componentes//*/
+
+    body{background-color:#fff;}
    header{background-color: #deb887;
                 display: flex;
                 justify-content: space-between;
@@ -155,7 +194,7 @@ button:hover {
             flex-direction: row;
              justify-content: space-between;}
 
-.btn-logar{background-color: #80A62E;
+.btn-logar{background-color:  #10B000;
            padding-top: 8px;
            padding-bottom: 8px; }
 
@@ -194,7 +233,8 @@ button:hover {
 
 
     .carousel-items{display:flex;
-                   flex-direction: row;}}
+                   flex-direction: row;
+                   }}
 
 
 
@@ -207,6 +247,7 @@ button:hover {
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
+            background-color:#BAC3CF;
             }
 
 
@@ -216,6 +257,8 @@ button:hover {
   border-radius: 8px;
 }
 
+.h3-prod{color: #000;
+            }
 
 .h3-carousel-item {
   color: #0e131a;
@@ -228,7 +271,7 @@ button:hover {
 }
 
 button {
-  background-color: #4285f4;
+  background-color:#10B000;
   color: #fff;
   padding: 10px 30px;
   border: none;
@@ -239,7 +282,8 @@ button {
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #BF9663;
+  color: #000;
 
 }
 
@@ -249,7 +293,7 @@ button:hover {
                display: flex;
                flex-direction: column;}
  
-  .carousel{height: 480px;}
+  .carousel{height: auto;}
             
      .carousel-item{min-width: 320px;
                      max-width: 320px;
@@ -261,7 +305,7 @@ button:hover {
     
   
  /*//////////FOOTER//////////////*/
-    footer{background-color: darkkhaki;
+    footer{background-color:#0e131a;
           padding: 25px;}
 
    .gerais {display: flex;
@@ -276,6 +320,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #0e131a;
     
   }
 
@@ -290,25 +335,32 @@ button:hover {
   article {
     text-align: left;
   }
-   a{text-decoration: none;}
+   a{text-decoration: none;
+     color:#000;
+     }
+
+   a:hover{transform:translateY(2px);}
    
-    .gerais{background-color: chocolate;
+    .gerais,.formas-pgto,.contato,.site-seguro{background-color: #777272;
             height: 50px;
-            margin-bottom: 5px;}
+            margin-bottom: 5px;
+            background-color:#989ba0;}
 
-    .formas-pgto{background-color: red;
-                 margin-bottom: 5px;}
-
-    .contato{background-color: chartreuse;
-             margin-bottom: 5px;}
- 
-    .site-seguro{background-color: coral;
-                 margin-bottom: 5px;}
     
+#footer-autor{color: #BAC3CF;
+                background-color: #000;
+               }
+
+    #h4-footer, #p-footer{text-align: center;}
 }
 
 
+
+
+/*******************************************************************/
 @media (min-width: 769px) and (max-width: 1024px){
+
+body{background-color:#fff;}
 
  /*//Header e seus componentes//*/
    header{background-color: #deb887;
@@ -322,12 +374,14 @@ button:hover {
             flex-direction: row;
              justify-content: space-between;}
 
-.btn-logar{background-color: #80A62E;
+.btn-logar{background-color: #10B000;
            padding-top: 8px;
            padding-bottom: 8px; }
 
 .btn-logar:hover{cursor: pointer;
-                 background-color: #BF9663;}
+                 background-color: #BF9663;
+                 border: solid 2px #000;
+                 color: #000;}
 
 #btn-entre{padding-left: 14px;
            padding-right: 14px;}
@@ -377,6 +431,7 @@ button:hover {
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
+             background-color:#BAC3CF;
             }
 
 
@@ -387,9 +442,10 @@ button:hover {
 }
 
 
-.h3-carousel-item {
-  color: #0e131a;
-}
+.h3-prod{color: #000;}
+
+.h3-carousel-item {color: #0e131a;
+                    background-color: #BAC3CF}
 
 .carousel-item p {
   font-size: 14px;
@@ -398,7 +454,7 @@ button:hover {
 }
 
 button {
-  background-color: #4285f4;
+  background-color: #10B000;
   color: #fff;
   padding: 10px 30px;
   border: none;
@@ -408,8 +464,8 @@ button {
   margin-bottom: 5px;
 }
 
-button:hover {
-  background-color: #555;
+button:hover {color: #000;
+  background-color: #deb887;;
 
 }
 
@@ -419,18 +475,20 @@ button:hover {
                display: flex;
                flex-direction: column;}
  
-  .carousel{height: 480px;}
+  .carousel{height: auto;}
             
      .carousel-item{min-width: 320px;
                      max-width: 320px;
-
+                      background-color: #BAC3CF;
       
                 & img{width: 100%;
                         border-radius: 5px;}}}
 
 /*///////FOOTER////////*/
-footer{background-color:#f20;
+footer{background-color:  #0e131a;
           padding: 25px;}
+
+a{color:#f3f3f3;}
 
    .gerais {display: flex;
     flex-direction: row;
@@ -444,7 +502,7 @@ footer{background-color:#f20;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+     background-color:#989ba0;
   }
 
   .formas-pgto figure img,
@@ -460,23 +518,25 @@ footer{background-color:#f20;
   }
    a{text-decoration: none;}
    
-    .gerais{background-color: chocolate;
+    .gerais,.formas-pgto,.contato,
+     .site-seguro{background-color: #777272;
             height: 50px;
             margin-bottom: 5px;}
 
-    .formas-pgto{background-color: red;
-                 margin-bottom: 5px;}
-
-    .contato{background-color: chartreuse;
-             margin-bottom: 5px;}
- 
-    .site-seguro{background-color: coral;
-                 margin-bottom: 5px;}
+   
     
+   #footer-autor{color: #f3f3f3;
+                background-color: #000;
+               }
 
+    #h4-footer, #p-footer{text-align: center;}
 }
 
+/********************************************************************/
+
 @media (min-width: 1025px){
+
+   body{background-color:#fff;}
 
  /*//Header e seus componentes//*/
    header{background-color: #deb887;
@@ -549,15 +609,20 @@ footer{background-color:#f20;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
+             background-color:#BAC3CF;
+            border: solid 1px #000;
+            
             }
 
 
-.carouselitem  img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
+.carouselitem  img {width: 100%;
+                    height: auto;
+                    border-radius: 8px;
+                }
 
+img{ border: solid 2px #000; }
+  
+.h3-prod{color: #000;}
 
 .h3-carousel-item {
   color: #0e131a;
@@ -570,7 +635,7 @@ footer{background-color:#f20;
 }
 
 button {
-  background-color: #4285f4;
+  background-color: #10B000;
   color: #fff;
   padding: 10px 30px;
   border: none;
@@ -578,10 +643,12 @@ button {
   cursor: pointer;
   transition: background-color 0.3s;
   margin-bottom: 5px;
+  border: solid 1px #000;
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #BF9663;
+   color: #000;
 
 }
 
@@ -591,7 +658,7 @@ button:hover {
                display: flex;
                flex-direction: column;}
  
-  .carousel{height: 480px;}
+  .carousel{height: auto;}
             
      .carousel-item{min-width: 320px;
                      max-width: 320px;
@@ -600,8 +667,13 @@ button:hover {
                 & img{width: 100%;}}}
 
 /*////FOOTER///////*/
-footer{background-color:#f20;
+footer{background-color:  #777272;
           padding: 25px;}
+
+a{color:#f3f3f3;
+  }
+
+ a:hover{ transform: scaleY(2px);}
 
    .gerais {display: flex;
     flex-direction: row;
@@ -614,9 +686,8 @@ footer{background-color:#f20;
   .site-seguro {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
-  }
+    justify-content: space-around;}
+     
 
   .formas-pgto figure img,
   .contato figure img,
@@ -631,19 +702,19 @@ footer{background-color:#f20;
   }
    a{text-decoration: none;}
    
-    .gerais{background-color: chocolate;
-            height: 50px;
-            margin-bottom: 5px;}
+    .gerais,.formas-pgto,.contato,
+     .site-seguro{background-color: #0e131a;}
+  
+           
+   
+    
+   #footer-autor{color: #f3f3f3;
+                background-color: #000;
+               }
 
-    .formas-pgto{background-color: red;
-                 margin-bottom: 5px;}
+    #h4-footer, #p-footer{text-align: center;}
 
-    .contato{background-color: chartreuse;
-             margin-bottom: 5px;}
- 
-    .site-seguro{background-color: coral;
-                 margin-bottom: 5px;}
 }
 
 
-
+/**********************************************************************/
