@@ -2,13 +2,18 @@
 @media (max-width: 576px) {
 
 body,
-pag-velas.html,
-pag-sabonetes.html,
-pag-aromatizantes.html{background-color: red;}
+.pag-velas.html,
+.pag-sabonetes.html,
+.pag-aromatizantes.html{background-color:#f3f3f3;
+                       box-sizing: border-box;
+                       margin: 0;
+                       padding: 0;}
 
-  .nossos-produtos{width: 90%;
+ main{width: 90%;}
+
+  .nossos-produtos{width: 100%;
                    height: auto; 
-                  
+                  background-color:gray;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -17,7 +22,11 @@ pag-aromatizantes.html{background-color: red;}
    .produtos{display: flex;
             flex-direction: column;
             align-items: center;
-            width: 100%;}
+            width: 100%;
+           background-color: #fff;
+           margin-bottom: 5px;
+           border: solid 2px;
+     }
   
   
 
@@ -29,7 +38,7 @@ pag-aromatizantes.html{background-color: red;}
 }
 
 .h3-prod {
-  color: #4285f4;
+  color: #000;
 }
 
 .prod p {
@@ -38,8 +47,8 @@ pag-aromatizantes.html{background-color: red;}
   color: #555;
 }
 
-.comprar {
-  background-color: #4285f4;
+.btn-comprar, .btn-col-car{
+  background-color:#10B000;
   color: #fff;
   padding: 10px 20px;
   border: none;

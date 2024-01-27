@@ -121,14 +121,20 @@ button:hover {
   .h3-prod{color: #000;
             }
 
+
+
   /*/////FOOTER//////////////*/
   @media (max-width: 576px) {
   footer {background-color: #777272;
     padding: 10px;
     color: #fff;
-    a{color:#f3f3f3}
+      margin: auto;}
+
+
+    a{color:#f3f3f3
+     }
    
-  }
+ 
 
    a:hover{color:#f3f3f3;
            transform: translateY(2px);}
@@ -138,10 +144,10 @@ button:hover {
    align-items: center;
   }
 
-    .gerais{border-bottom: solid 3px #000;}
+    /*.gerais{border-bottom: solid 3px #000;}
     .formas-pgto{border-bottom: solid 3px #000;}
     .contato{border-bottom: solid 3px #000;}
-     .site-seguro{border-bottom: solid 3px #000;}
+     .site-seguro{border-bottom: solid 3px #000;}*/
     
   
 
@@ -174,7 +180,9 @@ button:hover {
 
     #h4-footer, #p-footer{text-align: center;}
 }
+
 }
+
 
 /****************************************************************************/
 
@@ -354,7 +362,9 @@ button:hover {
     #h4-footer, #p-footer{text-align: center;}
 }
 
-
+.icon {
+    font-size: 24px;
+  }
 
 
 /*******************************************************************/
@@ -530,6 +540,10 @@ a{color:#f3f3f3;}
                }
 
     #h4-footer, #p-footer{text-align: center;}
+
+    .icon {
+    font-size: 32px;
+  }
 }
 
 /********************************************************************/
@@ -713,6 +727,10 @@ a{color:#f3f3f3;
                }
 
     #h4-footer, #p-footer{text-align: center;}
+
+  .icon {
+    font-size: 42px;
+  }
 
 }
 
