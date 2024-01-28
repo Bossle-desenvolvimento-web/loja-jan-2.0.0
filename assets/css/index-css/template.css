@@ -27,7 +27,8 @@ header{background-color: #deb887;
 
 /*/// CAROUSEL-PUBLICIDADE-/////////////*/
 
-main{margin-top: 15px;}
+main{margin-top: 15px;
+     margin: auto;}
 
  *{box-sizing: border-box;}
 
@@ -60,7 +61,7 @@ main{margin-top: 15px;}
 
 .carousel-item{width: 100%;
             max-width: 300px;
-            margin: 20px;
+            margin:15px;
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
@@ -164,8 +165,8 @@ button:hover {
   .formas-pgto figure img,
   .contato figure img,
   .site-seguro figure img {
-    width: 20px;
-    height: 20px;
+    width:45px;
+    height: 45px;
   }
 
   article {
@@ -176,6 +177,7 @@ button:hover {
 
   #footer-autor{color: #BAC3CF;
                 background-color: #000;
+                border-radius: 15px;
                }
 
     #h4-footer, #p-footer{text-align: center;}
@@ -213,12 +215,14 @@ button:hover {
            padding-right: 14px;}
 
 .carrinho-compras{display: flex;
-                  justify-content: flex-end;}
+                  justify-content: flex-end;
+                   }
 
 
 .nome-loja{
 
-  >h1{text-align: center;}}
+  >h1{text-align: center;
+       font-size: 86%;}}
 
 /*//-CAROUSEL-PUBLICIDADE-/////*/
 *{box-sizing: border-box;}
@@ -313,7 +317,7 @@ button:hover {
     
   
  /*//////////FOOTER//////////////*/
-    footer{background-color:#0e131a;
+    footer{background-color:#777272;
           padding: 25px;}
 
    .gerais {display: flex;
@@ -328,14 +332,16 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #0e131a;
+    background-color: #0e131a;}
+   
     
-  }
+   
 
   .formas-pgto figure img,
   .contato figure img,
   .site-seguro figure img {
-    width: 20px;
+    width: 45px;
+   height:45px ;
     
   
   }
@@ -352,19 +358,20 @@ button:hover {
     .gerais,.formas-pgto,.contato,.site-seguro{background-color: #777272;
             height: 50px;
             margin-bottom: 5px;
-            background-color:#989ba0;}
+            background-color:#777272;}
 
     
 #footer-autor{color: #BAC3CF;
                 background-color: #000;
-               }
+               margin-top: 15px;
+               border-radius: 15px;}
 
     #h4-footer, #p-footer{text-align: center;}
 }
 
-.icon {
-    font-size: 24px;
-  }
+
+    
+  
 
 
 /*******************************************************************/
@@ -495,7 +502,7 @@ button:hover {color: #000;
                         border-radius: 5px;}}}
 
 /*///////FOOTER////////*/
-footer{background-color:  #0e131a;
+footer{background-color:  #777272;
           padding: 25px;}
 
 a{color:#f3f3f3;}
@@ -518,7 +525,8 @@ a{color:#f3f3f3;}
   .formas-pgto figure img,
   .contato figure img,
   .site-seguro figure img {
-    width: 20px;
+    width: 50px;
+    height: 50px;
     
   
   }
@@ -537,13 +545,12 @@ a{color:#f3f3f3;}
     
    #footer-autor{color: #f3f3f3;
                 background-color: #000;
-               }
+                margin-top: 20px;
+                border-radius: 15px;}
 
     #h4-footer, #p-footer{text-align: center;}
 
-    .icon {
-    font-size: 32px;
-  }
+   
 }
 
 /********************************************************************/
@@ -652,7 +659,7 @@ button {
   background-color: #10B000;
   color: #fff;
   padding: 10px 30px;
-  border: none;
+  
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -706,7 +713,8 @@ a{color:#f3f3f3;
   .formas-pgto figure img,
   .contato figure img,
   .site-seguro figure img {
-    width: 20px;
+    width: 55px;
+    height: 55px;
     
   
   }
@@ -717,20 +725,18 @@ a{color:#f3f3f3;
    a{text-decoration: none;}
    
     .gerais,.formas-pgto,.contato,
-     .site-seguro{background-color: #0e131a;}
+     .site-seguro{background-color: #777272;}
   
            
    
     
    #footer-autor{color: #f3f3f3;
                 background-color: #000;
-               }
+                border-radius:15px;}
 
     #h4-footer, #p-footer{text-align: center;}
 
-  .icon {
-    font-size: 42px;
-  }
+ 
 
 }
 
